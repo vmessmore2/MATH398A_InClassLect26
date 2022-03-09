@@ -1,0 +1,17 @@
+---
+title: "NormalRV"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+x <- rnorm(100)
+
+hist(x)
+```
+
+![A photo](Carl_Friedrich_Gauss_1840.jpg){width=35%}
+
